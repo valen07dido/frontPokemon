@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Card from './Card';
+import Card from './CArd';
 
 describe('Card', () => {
   const mockDeletePoke = jest.fn();
